@@ -3,6 +3,14 @@
 
 ---
 
+![alt text](images/{DB751233-67E1-44AE-9208-A929C7FE2969}.png)
+
+![alt text](images/{40108875-367B-4E0B-AC80-0B6A5BFDD814}.png)
+
+![alt text]({4BD6455C-6A42-41B6-A325-365D12D67C8F}.png)
+
+---
+
 ## 🧠 **Short Description**
 
 Build an AI system that automatically analyzes cloud performance metrics (CPU, memory, disk I/O, network) and recommends the *optimal resource configuration* to achieve the best performance-to-cost ratio — adjusting autoscaling rules or instance types dynamically.
@@ -48,7 +56,7 @@ This tool continuously learns from **real utilization metrics** and automaticall
 
 ## 🧩 **Architecture Overview**
 
-```
+```bash
                 +---------------------------+
                 |  Prometheus / CloudWatch  |
                 | (Performance Metrics)     |
@@ -77,7 +85,7 @@ This tool continuously learns from **real utilization metrics** and automaticall
 
 **Dashboard Suggestion Example:**
 
-```
+```markdown
 Resource: EC2 i-0423abc123 (web-app-prod)
 Avg CPU: 14%, Peak Memory: 76%
 
@@ -134,7 +142,6 @@ resource "aws_instance" "web_app" {
 ## 🏁 Run the landing site locally
 
 This repository contains a static landing page. To view it locally, open `index.html` in your browser or serve it with a tiny static server.
-
 
 Quick ways to run locally (pick one):
 
