@@ -7,7 +7,7 @@
 
 ![alt text](images/{40108875-367B-4E0B-AC80-0B6A5BFDD814}.png)
 
-![alt text]({4BD6455C-6A42-41B6-A325-365D12D67C8F}.png)
+![alt text](images/{4BD6455C-6A42-41B6-A325-365D12D67C8F}.png)
 
 ---
 
