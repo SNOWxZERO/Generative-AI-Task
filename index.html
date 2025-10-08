@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description"
+        content="AI-Based Cloud Resource Performance Optimizer — automatically analyzes cloud metrics and recommends optimal configurations for cost and performance." />
+    <title>AI-Based Cloud Resource Performance Optimizer</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="nav">
+        <div class="container nav-inner">
+            <a class="brand" href="#">
+                <svg class="brand-icon" viewBox="0 0 24 24" aria-hidden="true">
+                    <rect x="3" y="3" width="18" height="18" rx="4" fill="currentColor" />
+                </svg>
+                <span class="brand-text">AI-Based Cloud Resource Performance Optimizer</span>
+            </a>
+            <nav class="nav-links" aria-label="Primary">
+                <a href="#how">How it Works</a>
+                <a href="#features">Features</a>
+                <a href="#architecture">Architecture</a>
+                <a href="#demo">Demo</a>
+                <a href="#team">Team</a>
+            </nav>
+            <div class="nav-actions">
+                <a class="btn ghost" href="https://github.com/" target="_blank" rel="noopener">View on GitHub</a>
+                <button id="themeToggle" class="icon-btn" aria-label="Toggle dark mode">🌙</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero-grid">
+                <div class="hero-content">
+                    <h1 class="hero-title">Optimize Cloud Performance with AI Intelligence</h1>
+                    <p class="hero-sub">Automatically analyze metrics from Prometheus or CloudWatch and get actionable,
+                        cost-efficient infrastructure recommendations — tuned for performance.</p>
+                    <div class="hero-cta">
+                        <a class="btn primary" href="#demo">Get Started</a>
+                        <a class="btn outline" href="https://github.com/" target="_blank" rel="noopener">View on
+                            GitHub</a>
+                    </div>
+                    <ul class="hero-list">
+                        <li>Predictive performance tuning</li>
+                        <li>Smart autoscaling recommendations</li>
+                        <li>Terraform & Kubernetes integration</li>
+                    </ul>
+                </div>
+                <div class="hero-art">
+                    <svg viewBox="0 0 600 380" class="illustration" aria-hidden="true">
+                        <defs>
+                            <linearGradient id="g1" x1="0" x2="1">
+                                <stop offset="0%" stop-color="#60a5fa" />
+                                <stop offset="100%" stop-color="#34d399" />
+                            </linearGradient>
+                        </defs>
+                        <rect x="20" y="30" width="560" height="320" rx="16" fill="#0f172a" opacity="0.9" />
+                        <g transform="translate(40,50)">
+                            <rect width="240" height="90" rx="8" fill="#071032" stroke="url(#g1)" stroke-width="1" />
+                            <rect x="260" width="240" height="120" rx="8" fill="#071032" stroke="#123"
+                                stroke-opacity="0.15" />
+                            <circle cx="80" cy="190" r="48" fill="url(#g1)" opacity="0.95" />
+                            <rect x="170" y="150" width="180" height="90" rx="8" fill="#0b2540" />
+                        </g>
+                    </svg>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="container">
+                <h2>About / Overview</h2>
+                <p class="lead">This AI-powered optimizer ingests performance metrics from Prometheus or CloudWatch,
+                    learns workload patterns with time-series models, scores resource efficiency, and recommends (or
+                    auto-applies) infrastructure changes via Terraform, Kubernetes, or cloud APIs to maximize
+                    performance-per-dollar.</p>
+                <p>Integrations: Terraform • Kubernetes • AWS • Azure • GCP • Grafana</p>
+            </div>
+        </section>
+
+        <section id="how" class="section light">
+            <div class="container">
+                <h2>How it Works</h2>
+                <div class="steps">
+                    <div class="step">
+                        <div class="step-icon">📥</div>
+                        <h3>1. Collect</h3>
+                        <p>Pull metrics from Prometheus, CloudWatch, and other monitoring systems — CPU, memory, disk
+                            I/O, and network.</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-icon">🧠</div>
+                        <h3>2. Predict</h3>
+                        <p>Use time-series forecasting and anomaly detection to learn workload patterns and capacity
+                            needs.</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-icon">⚙️</div>
+                        <h3>3. Recommend</h3>
+                        <p>Provide actionable recommendations or automatically adjust autoscaling rules and instance
+                            types for optimal cost-performance.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="section">
+            <div class="container">
+                <h2>Key Features</h2>
+                <div class="features-grid">
+                    <div class="feature">
+                        <div class="icon">🤖</div>
+                        <h4>Predictive Tuning</h4>
+                        <p>Forecast workload and pre-adjust resources to avoid latency and throttling.</p>
+                    </div>
+                    <div class="feature">
+                        <div class="icon">📈</div>
+                        <h4>Smart Autoscaling</h4>
+                        <p>Dynamic scaling recommendations that balance cost and performance.</p>
+                    </div>
+                    <div class="feature">
+                        <div class="icon">☁️</div>
+                        <h4>Multi-cloud Support</h4>
+                        <p>Works across AWS, Azure, and GCP with cloud-agnostic optimizations.</p>
+                    </div>
+                    <div class="feature">
+                        <div class="icon">📊</div>
+                        <h4>Grafana Integration</h4>
+                        <p>Visualize recommendations directly in your Grafana dashboards.</p>
+                    </div>
+                    <div class="feature">
+                        <div class="icon">💸</div>
+                        <h4>Cost-Performance Engine</h4>
+                        <p>Multi-objective scoring that optimizes for both cost and latency.</p>
+                    </div>
+                    <div class="feature">
+                        <div class="icon">🔒</div>
+                        <h4>Safe Rollouts</h4>
+                        <p>Conservative proposals with performance risk estimates and rollback paths.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="architecture" class="section light">
+            <div class="container">
+                <h2>Architecture Diagram</h2>
+                <div class="arch">
+                    <svg viewBox="0 0 900 180" class="arch-svg" aria-hidden="true">
+                        <defs>
+                            <marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+                                <path d="M0,0 L10,4 L0,8 z" fill="#0ea5a4" />
+                            </marker>
+                        </defs>
+                        <rect x="10" y="30" width="200" height="120" rx="8" fill="#0b1220" stroke="#0ea5a4" />
+                        <text x="110" y="70" text-anchor="middle" fill="#fff" font-size="14">Prometheus /
+                            CloudWatch</text>
+                        <rect x="350" y="30" width="200" height="120" rx="8" fill="#081129" stroke="#60a5fa" />
+                        <text x="450" y="70" text-anchor="middle" fill="#fff" font-size="14">AI Engine</text>
+                        <rect x="690" y="30" width="200" height="120" rx="8" fill="#081129" stroke="#34d399" />
+                        <text x="790" y="70" text-anchor="middle" fill="#fff" font-size="14">Terraform / Cloud
+                            APIs</text>
+                        <line x1="210" y1="90" x2="350" y2="90" stroke="#0ea5a4" stroke-width="3"
+                            marker-end="url(#arrow)" />
+                        <line x1="550" y1="90" x2="690" y2="90" stroke="#60a5fa" stroke-width="3"
+                            marker-end="url(#arrow)" />
+                        <text x="450" y="120" text-anchor="middle" fill="#9ca3af" font-size="12">→ Predictions,
+                            recommendations, and policies</text>
+                    </svg>
+                </div>
+            </div>
+        </section>
+
+        <section id="demo" class="section">
+            <div class="container">
+                <h2>Demo</h2>
+                <div class="demo-grid">
+                    <div class="video">
+                        <div class="video-wrap">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                                title="Demo placeholder" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="demo-cards">
+                        <div class="card">
+                            <h4>Predicted Cost Savings</h4>
+                            <p class="large">28% <span class="muted">(estimated)</span></p>
+                        </div>
+                        <div class="card">
+                            <h4>Optimal Instance</h4>
+                            <p class="muted">m5.xlarge → t3.large</p>
+                        </div>
+                        <div class="card">
+                            <h4>Autoscaling</h4>
+                            <p class="muted">min=2, max=5 (peak-aware)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="team" class="section light">
+            <div class="container">
+                <h2>Team / Contributors</h2>
+                <div class="team-grid">
+                    <div class="member">
+                        <div class="avatar">AM</div>
+                        <h4>Alice Morgan</h4>
+                        <p class="muted">ML Engineer</p>
+                    </div>
+                    <div class="member">
+                        <div class="avatar">BR</div>
+                        <h4>Ben Rodriguez</h4>
+                        <p class="muted">DevOps</p>
+                    </div>
+                    <div class="member">
+                        <div class="avatar">CK</div>
+                        <h4>Chen Kai</h4>
+                        <p class="muted">Full-stack</p>
+                    </div>
+                    <div class="member">
+                        <div class="avatar">DS</div>
+                        <h4>Diane Smith</h4>
+                        <p class="muted">Product</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section cta">
+            <div class="container cta-inner">
+                <div>
+                    <h2>Ready to optimize your cloud costs and performance?</h2>
+                    <p class="muted">Try the tool, contribute on GitHub, or request a demo.</p>
+                </div>
+                <div class="cta-actions">
+                    <a class="btn primary" href="https://github.com/" target="_blank" rel="noopener">Try it on
+                        GitHub</a>
+                    <a class="btn outline" href="#contact">Request a Demo</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-inner">
+            <div>
+                <strong>AI-Based Cloud Resource Performance Optimizer</strong>
+                <p class="muted">Open-source project for intelligent cloud resource tuning.</p>
+            </div>
+            <div class="footer-links">
+                <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+                <a href="#">Documentation</a>
+                <a href="#">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Dark mode toggle and initialization
+        (function () {
+            const themeToggle = document.getElementById('themeToggle');
+            const root = document.documentElement;
+            try {
+                const saved = localStorage.getItem('theme');
+                if (saved === 'dark') root.classList.add('dark');
+            } catch (e) { /* ignore localStorage errors */ }
+            if (themeToggle) {
+                themeToggle.textContent = root.classList.contains('dark') ? '☀️' : '🌙';
+                themeToggle.addEventListener('click', () => {
+                    root.classList.toggle('dark');
+                    const isDark = root.classList.contains('dark');
+                    try { localStorage.setItem('theme', isDark ? 'dark' : 'light'); } catch (e) { }
+                    themeToggle.textContent = isDark ? '☀️' : '🌙';
+                });
+            }
+        })();
+
+        // Smooth scroll for internal links
+        document.querySelectorAll('a[href^="#"]').forEach(a => {
+            a.addEventListener('click', function (e) {
+                const href = this.getAttribute('href');
+                if (href && href.length > 1) {
+                    e.preventDefault();
+                    const el = document.querySelector(href);
+                    if (el) el.scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
